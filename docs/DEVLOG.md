@@ -5,12 +5,16 @@ the same headings.
 
 ## Current state
 
-_As of 2026-11-02: the home page and the privacy policy are published with GitHub Pages; Google Play links the policy._
+_As of 2026-11-26, the policy includes the optional STASH Voice scoring microphone disclosure._
 
 Pages: `index.html` (what the app is, links) and `privacy.html` (the policy, mirrored from party-games
 `docs/store/privacy-policy.md`). Check: `python tests/check_site.py`. Not yet: a custom domain, store badges.
 
 ## Recent work (newest first)
+
+## 2026-11-26 - Disclose optional STASH microphone access
+
+Mirrored the app's privacy text for on-device Voice scoring and updated the policy date.
 
 ## 2026-11-02 - Home page and privacy policy for Google Play
 

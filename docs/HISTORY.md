@@ -2,6 +2,25 @@
 
 Every change in full, append-only, under the same headings as `docs/DEVLOG.md`. Search it; do not read it whole.
 
+## 2026-11-26 - Disclose optional STASH microphone access
+
+**Outcome and reason.** The privacy policy describes microphone access for the optional on-device Voice scoring mode.
+
+**Files changed.** `privacy.html`, `docs/DEVLOG.md`, and `docs/HISTORY.md`.
+
+**Key decisions and assumptions.** The app requests microphone access after the player enables Voice scoring.
+Android processes speech on the phone while the table is open. The app does not save or send audio or transcripts.
+
+**Commands run.** Local site tests, project-records checker, and comparison with the app repository's policy.
+
+**Failures and recoveries.** None.
+
+**Verification actually performed.** The local policy text matches the app's disclosure.
+
+**Not tested, and why.** Device microphone behavior belongs to the app's Android release verification.
+
+**Remaining risks and next useful step.** Keep the site and app disclosures in sync if microphone handling changes.
+
 ## 2026-11-02 - Home page and privacy policy for Google Play
 
 **Outcome and reason.** Google Play asks for a privacy policy at a public web address. The app repo (party-games) is
